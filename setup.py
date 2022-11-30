@@ -6,11 +6,11 @@ with open('README.md', 'r') as f:
 
 setup(
     name="creategitignore",
-    version="0.0.1",
+    version="0.1",
     description="Create .gitignore files for your projects",
-    long_description="long_description",
+    long_description=long_description,
     long_description_content_type="text/markdown",
-    url="htts://github.com/dapoadedire/gitignore-cli",
+    url="https://github.com/dapoadedire/gitignore-cli",
     author="Dapo Adedire",
     author_email="<adedireadedapo19@gmail.com>",
     py_modules=["creategitignore"],
