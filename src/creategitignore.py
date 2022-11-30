@@ -28,7 +28,7 @@ def main():
     parser.add_argument(
         "language",
         type=str,
-        help="The language you want your gitignore file for. \nCheck out {Fore.GREEN}https://github.com/github/gitignore{Style.RESET_ALL} for list of available languages. ",
+        help=f"The language you want your gitignore file for. \nCheck out {Fore.GREEN}https://github.com/github/gitignore{Style.RESET_ALL} for list of available languages. ",
     )
 
     args = parser.parse_args()

@@ -1,10 +1,15 @@
 from setuptools import setup
 
+with open('README.md', 'r') as f:
+    long_description = f.read()
+
 
 setup(
     name="creategitignore",
     version="0.0.1",
     description="Create .gitignore files for your projects",
+    long_description="long_description",
+    long_description_content_type="text/markdown",
     url="htts://github.com/dapoadedire/gitignore-cli",
     author="Dapo Adedire",
     author_email="<adedireadedapo19@gmail.com>",
@@ -19,6 +24,10 @@ setup(
         "Operating System :: Unix",
         "Operating System :: MacOS :: MacOS X",
         "Operating System :: Microsoft :: Windows",
+        "License :: OSI Approved :: MIT License",
+
+
+
     ],
     entry_points={"console_scripts": ["creategitignore = creategitignore:main"]},
 )
