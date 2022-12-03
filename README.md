@@ -13,7 +13,7 @@ A Python package to create a `.gitignore` file for your project directly from th
 
 ## Usage
 
-$ creategitignore [language]
+`$ creategitignore [language] `
 
 `[language]` is the language you want your `.gitignore` file for. A list of available languages can be found at https://github.com/github/gitignore.
 
