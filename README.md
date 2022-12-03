@@ -9,7 +9,7 @@ A Python package to create a `.gitignore` file for your project directly from th
 
 ## Installation
 
-$ pip install creategitignore
+`$ pip install creategitignore `
 
 ## Usage
 
