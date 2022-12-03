@@ -6,6 +6,8 @@ A Python package to create a `.gitignore` file for your project directly from th
 
 - Python 3
 - Colorama
+- BeautifulSoup
+- Sopusieve
 
 ## Installation
 

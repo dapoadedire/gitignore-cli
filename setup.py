@@ -16,7 +16,7 @@ setup(
     py_modules=["creategitignore"],
     package_dir={"": "src"},
     keywords=["gitignore", "python"],
-    install_requires=["colorama"],
+    install_requires=["colorama", "beautifulsoup4", "soupsieve"],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
